@@ -1,5 +1,4 @@
 FROM openjdk:11
-LABEL maintainer="Arjuna Rajasekhar"
-ADD target/SpringbootApp-DB-0.0.1-SNAPSHOT.war SpringbootApp-DB-0.0.1-SNAPSHOT.war
 EXPOSE 8085
+ADD target/SpringbootApp-DB.war SpringbootApp-DB.war
 ENTRYPOINT ["java","-war","SpringbootApp-DB-0.0.1-SNAPSHOT.war"]
