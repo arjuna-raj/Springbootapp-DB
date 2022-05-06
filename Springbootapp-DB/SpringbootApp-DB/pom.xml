@@ -70,6 +70,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>SpringbootApp-DB</finalName>
 	</build>
 
 </project>
